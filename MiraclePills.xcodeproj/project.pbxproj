@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1F1F7BC07556832D9ED21CB8 /* Pods_MiraclePillsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B98EA45E31649AB4F1431C5 /* Pods_MiraclePillsTests.framework */; };
+		7E1C8633245CDFE4000F86AC /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E1C8632245CDFE4000F86AC /* logo.png */; };
 		7E77869D245BD76D00A98935 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E77869C245BD76D00A98935 /* GoogleService-Info.plist */; };
 		7ECED4DE245217C60094DB0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECED4DD245217C60094DB0E /* AppDelegate.swift */; };
 		7ECED4E0245217C60094DB0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECED4DF245217C60094DB0E /* SceneDelegate.swift */; };
@@ -44,6 +45,7 @@
 		2B98EA45E31649AB4F1431C5 /* Pods_MiraclePillsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiraclePillsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D943BAA338EC8F31B5D82A /* Pods-MiraclePillsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiraclePillsTests.release.xcconfig"; path = "Target Support Files/Pods-MiraclePillsTests/Pods-MiraclePillsTests.release.xcconfig"; sourceTree = "<group>"; };
 		709DF1E8ED6E98ECE99BD199 /* Pods-MiraclePills-MiraclePillsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiraclePills-MiraclePillsUITests.release.xcconfig"; path = "Target Support Files/Pods-MiraclePills-MiraclePillsUITests/Pods-MiraclePills-MiraclePillsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7E1C8632245CDFE4000F86AC /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../../Downloads/logo.png; sourceTree = "<group>"; };
 		7E77869C245BD76D00A98935 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7ECED4DA245217C60094DB0E /* MiraclePills.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiraclePills.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECED4DD245217C60094DB0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				7ECED4E6245217C90094DB0E /* Assets.xcassets */,
 				7ECED4E8245217C90094DB0E /* LaunchScreen.storyboard */,
 				7ECED4EB245217C90094DB0E /* Info.plist */,
+				7E1C8632245CDFE4000F86AC /* logo.png */,
 			);
 			path = MiraclePills;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7ECED4EA245217C90094DB0E /* LaunchScreen.storyboard in Resources */,
+				7E1C8633245CDFE4000F86AC /* logo.png in Resources */,
 				7E77869D245BD76D00A98935 /* GoogleService-Info.plist in Resources */,
 				7ECED4E7245217C90094DB0E /* Assets.xcassets in Resources */,
 				7ECED4E5245217C60094DB0E /* Main.storyboard in Resources */,
