@@ -5,8 +5,8 @@ I have implemented different UI objects: imageview,label,button,pickerview.<br/>
 I have used <b>Firebase as the Database.</b><br/>
 I have also added the functionality to disable the keyboard if tap anywhere in the screen.<br/>
 <b>Video:</b><br/>
-[MiraclePillsVideo.mov.zip]
-<br/>(https://github.com/yugsalvation/MiraclePillsIOSapp/files/4533794/MiraclePillsVideo.mov.zip) <br/>
+[miraclePillsvideo.mov.zip] <br/>
+https://github.com/yugsalvation/MiraclePillsIOSapp/files/4566504/miraclePillsvideo.mov.zip <br/>
 <b>Screenshots:</b> <br/>
 <img width="1280" alt="Screenshot 2020-05-01 at 6 36 49 PM" src="https://user-images.githubusercontent.com/33853459/80846611-d02d9100-8bda-11ea-9c70-46b697ae96e0.png">
 <img width="303" alt="Screenshot 2020-04-25 at 2 26 04 PM" src="https://user-images.githubusercontent.com/33853459/80287778-3f017a80-8701-11ea-9462-407684a129c2.png">
