@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 extension UIViewController {
 func dismissKey()
 {
@@ -24,8 +25,12 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
     @IBOutlet weak var statePicker: UIPickerView!
     @IBOutlet weak var statePickerBtn: UIButton!
     
+    @IBOutlet weak var cityTxt: UITextField!
+    @IBOutlet weak var addressTxt: UITextField!
+    @IBOutlet weak var nameTxt: UITextField!
     @IBOutlet weak var submitBtn: UIButton!
     let states=["Ontario","Qubec","Nova Scotia","Alberta"]
+    var ref: DatabaseReference!
     
     
     override func viewDidLoad() {
@@ -33,6 +38,7 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
         statePicker.dataSource=self
         statePicker.delegate=self
         self.dismissKey()
+        ref = Database.database().reference()
         // Do any additional setup after loading the view.
      //   self.view.backgroundColor=UIColor.purple
     }
@@ -55,6 +61,10 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
         statePickerBtn.setTitle(states[row], for:UIControl.State.normal)
         statePicker.isHidden=true
         submitBtn.isHidden=false
+    }
+    
+    @IBAction func submitBtnPress(_ sender: Any) {
+        ref.child("MiraclePills").childByAutoId().setValue(["name":nameTxt.text,"address":addressTxt.text,"city":cityTxt.text,"state":statePickerBtn.titleLabel?.text])
     }
 }
 

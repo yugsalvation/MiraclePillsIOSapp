@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,6 +19,7 @@
                                 <rect key="frame" x="40" y="607" width="334" height="30"/>
                                 <state key="normal" title="Submit"/>
                                 <connections>
+                                    <action selector="submitBtnPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bsM-AM-LCT"/>
                                     <segue destination="i1B-id-xQm" kind="show" id="Tup-ps-uEb"/>
                                 </connections>
                             </button>
@@ -183,6 +184,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="addressTxt" destination="UFD-ep-nnn" id="MdR-ir-MUz"/>
+                        <outlet property="cityTxt" destination="Hjj-IB-mFe" id="sR5-dF-IIP"/>
+                        <outlet property="nameTxt" destination="Ag5-Tc-VqK" id="bXB-sL-7Ss"/>
                         <outlet property="statePicker" destination="idH-lY-Jrt" id="hce-06-BPY"/>
                         <outlet property="statePickerBtn" destination="4oh-Lu-WW4" id="wwQ-O7-1ck"/>
                         <outlet property="submitBtn" destination="8gQ-yC-JLi" id="td6-Ip-VH0"/>

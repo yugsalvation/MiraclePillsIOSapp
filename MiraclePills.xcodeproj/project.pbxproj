@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F1F7BC07556832D9ED21CB8 /* Pods_MiraclePillsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B98EA45E31649AB4F1431C5 /* Pods_MiraclePillsTests.framework */; };
+		7E77869D245BD76D00A98935 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E77869C245BD76D00A98935 /* GoogleService-Info.plist */; };
 		7ECED4DE245217C60094DB0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECED4DD245217C60094DB0E /* AppDelegate.swift */; };
 		7ECED4E0245217C60094DB0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECED4DF245217C60094DB0E /* SceneDelegate.swift */; };
 		7ECED4E2245217C60094DB0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECED4E1245217C60094DB0E /* ViewController.swift */; };
@@ -15,6 +17,8 @@
 		7ECED4EA245217C90094DB0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ECED4E8245217C90094DB0E /* LaunchScreen.storyboard */; };
 		7ECED4F5245217C90094DB0E /* MiraclePillsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECED4F4245217C90094DB0E /* MiraclePillsTests.swift */; };
 		7ECED500245217C90094DB0E /* MiraclePillsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECED4FF245217C90094DB0E /* MiraclePillsUITests.swift */; };
+		9DA8567605E5DA832ECFAFF1 /* Pods_MiraclePills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DE003178F87B9F0B75C4F4 /* Pods_MiraclePills.framework */; };
+		E6F17CF3FA265089A3DA7946 /* Pods_MiraclePills_MiraclePillsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C6900C7E3E3E3D372E9696 /* Pods_MiraclePills_MiraclePillsUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DF0CD2D7C1816DCEED03723 /* Pods-MiraclePillsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiraclePillsTests.debug.xcconfig"; path = "Target Support Files/Pods-MiraclePillsTests/Pods-MiraclePillsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2929F0DD54E45C6D020C7D71 /* Pods-MiraclePills-MiraclePillsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiraclePills-MiraclePillsUITests.debug.xcconfig"; path = "Target Support Files/Pods-MiraclePills-MiraclePillsUITests/Pods-MiraclePills-MiraclePillsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B98EA45E31649AB4F1431C5 /* Pods_MiraclePillsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiraclePillsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D943BAA338EC8F31B5D82A /* Pods-MiraclePillsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiraclePillsTests.release.xcconfig"; path = "Target Support Files/Pods-MiraclePillsTests/Pods-MiraclePillsTests.release.xcconfig"; sourceTree = "<group>"; };
+		709DF1E8ED6E98ECE99BD199 /* Pods-MiraclePills-MiraclePillsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiraclePills-MiraclePillsUITests.release.xcconfig"; path = "Target Support Files/Pods-MiraclePills-MiraclePillsUITests/Pods-MiraclePills-MiraclePillsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7E77869C245BD76D00A98935 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7ECED4DA245217C60094DB0E /* MiraclePills.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiraclePills.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECED4DD245217C60094DB0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7ECED4DF245217C60094DB0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,10 @@
 		7ECED4FB245217C90094DB0E /* MiraclePillsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiraclePillsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECED4FF245217C90094DB0E /* MiraclePillsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiraclePillsUITests.swift; sourceTree = "<group>"; };
 		7ECED501245217C90094DB0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94DE003178F87B9F0B75C4F4 /* Pods_MiraclePills.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiraclePills.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C6900C7E3E3E3D372E9696 /* Pods_MiraclePills_MiraclePillsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiraclePills_MiraclePillsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE80CF3B5630D7A59C635D70 /* Pods-MiraclePills.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiraclePills.debug.xcconfig"; path = "Target Support Files/Pods-MiraclePills/Pods-MiraclePills.debug.xcconfig"; sourceTree = "<group>"; };
+		DC59D5E253D57B8914E63EAE /* Pods-MiraclePills.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiraclePills.release.xcconfig"; path = "Target Support Files/Pods-MiraclePills/Pods-MiraclePills.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA8567605E5DA832ECFAFF1 /* Pods_MiraclePills.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F1F7BC07556832D9ED21CB8 /* Pods_MiraclePillsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6F17CF3FA265089A3DA7946 /* Pods_MiraclePills_MiraclePillsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47117EC54D2A9C025ED75CBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE80CF3B5630D7A59C635D70 /* Pods-MiraclePills.debug.xcconfig */,
+				DC59D5E253D57B8914E63EAE /* Pods-MiraclePills.release.xcconfig */,
+				2929F0DD54E45C6D020C7D71 /* Pods-MiraclePills-MiraclePillsUITests.debug.xcconfig */,
+				709DF1E8ED6E98ECE99BD199 /* Pods-MiraclePills-MiraclePillsUITests.release.xcconfig */,
+				1DF0CD2D7C1816DCEED03723 /* Pods-MiraclePillsTests.debug.xcconfig */,
+				55D943BAA338EC8F31B5D82A /* Pods-MiraclePillsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		53CE5AB3C4EAC71000120281 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94DE003178F87B9F0B75C4F4 /* Pods_MiraclePills.framework */,
+				A0C6900C7E3E3E3D372E9696 /* Pods_MiraclePills_MiraclePillsUITests.framework */,
+				2B98EA45E31649AB4F1431C5 /* Pods_MiraclePillsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7ECED4D1245217C60094DB0E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				7ECED4F3245217C90094DB0E /* MiraclePillsTests */,
 				7ECED4FE245217C90094DB0E /* MiraclePillsUITests */,
 				7ECED4DB245217C60094DB0E /* Products */,
+				47117EC54D2A9C025ED75CBD /* Pods */,
+				53CE5AB3C4EAC71000120281 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +141,7 @@
 		7ECED4DC245217C60094DB0E /* MiraclePills */ = {
 			isa = PBXGroup;
 			children = (
+				7E77869C245BD76D00A98935 /* GoogleService-Info.plist */,
 				7ECED4DD245217C60094DB0E /* AppDelegate.swift */,
 				7ECED4DF245217C60094DB0E /* SceneDelegate.swift */,
 				7ECED4E1245217C60094DB0E /* ViewController.swift */,
@@ -135,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7ECED504245217C90094DB0E /* Build configuration list for PBXNativeTarget "MiraclePills" */;
 			buildPhases = (
+				621780D69CFC13E2696F93F5 /* [CP] Check Pods Manifest.lock */,
 				7ECED4D6245217C60094DB0E /* Sources */,
 				7ECED4D7245217C60094DB0E /* Frameworks */,
 				7ECED4D8245217C60094DB0E /* Resources */,
+				3059800CA47FF677409A5D99 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7ECED507245217C90094DB0E /* Build configuration list for PBXNativeTarget "MiraclePillsTests" */;
 			buildPhases = (
+				1F27AAF60EB679B9678CDA1A /* [CP] Check Pods Manifest.lock */,
 				7ECED4EC245217C90094DB0E /* Sources */,
 				7ECED4ED245217C90094DB0E /* Frameworks */,
 				7ECED4EE245217C90094DB0E /* Resources */,
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7ECED50A245217C90094DB0E /* Build configuration list for PBXNativeTarget "MiraclePillsUITests" */;
 			buildPhases = (
+				A3262FCE62385DA2BA7E6883 /* [CP] Check Pods Manifest.lock */,
 				7ECED4F7245217C90094DB0E /* Sources */,
 				7ECED4F8245217C90094DB0E /* Frameworks */,
 				7ECED4F9245217C90094DB0E /* Resources */,
+				7B3AB0C8955168E71E8E43CA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7ECED4EA245217C90094DB0E /* LaunchScreen.storyboard in Resources */,
+				7E77869D245BD76D00A98935 /* GoogleService-Info.plist in Resources */,
 				7ECED4E7245217C90094DB0E /* Assets.xcassets in Resources */,
 				7ECED4E5245217C60094DB0E /* Main.storyboard in Resources */,
 			);
@@ -253,6 +302,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F27AAF60EB679B9678CDA1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiraclePillsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3059800CA47FF677409A5D99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiraclePills/Pods-MiraclePills-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiraclePills/Pods-MiraclePills-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiraclePills/Pods-MiraclePills-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		621780D69CFC13E2696F93F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiraclePills-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B3AB0C8955168E71E8E43CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiraclePills-MiraclePillsUITests/Pods-MiraclePills-MiraclePillsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiraclePills-MiraclePillsUITests/Pods-MiraclePills-MiraclePillsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiraclePills-MiraclePillsUITests/Pods-MiraclePills-MiraclePillsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3262FCE62385DA2BA7E6883 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiraclePills-MiraclePillsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7ECED4D6245217C60094DB0E /* Sources */ = {
@@ -432,10 +584,13 @@
 		};
 		7ECED505245217C90094DB0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE80CF3B5630D7A59C635D70 /* Pods-MiraclePills.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26G7X62A2N;
 				INFOPLIST_FILE = MiraclePills/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,10 +604,13 @@
 		};
 		7ECED506245217C90094DB0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC59D5E253D57B8914E63EAE /* Pods-MiraclePills.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26G7X62A2N;
 				INFOPLIST_FILE = MiraclePills/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +624,7 @@
 		};
 		7ECED508245217C90094DB0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DF0CD2D7C1816DCEED03723 /* Pods-MiraclePillsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +646,7 @@
 		};
 		7ECED509245217C90094DB0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55D943BAA338EC8F31B5D82A /* Pods-MiraclePillsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +668,7 @@
 		};
 		7ECED50B245217C90094DB0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2929F0DD54E45C6D020C7D71 /* Pods-MiraclePills-MiraclePillsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +688,7 @@
 		};
 		7ECED50C245217C90094DB0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 709DF1E8ED6E98ECE99BD199 /* Pods-MiraclePills-MiraclePillsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
