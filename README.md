@@ -1,8 +1,8 @@
 # MiraclePillsIOSapp
 A simple IOS app.<br/>
 <b>Note:</b> <br/>
-Its just a design and there ain't any CRUD operation.<br/>
 I have implemented different UI objects: imageview,label,button,pickerview.<br/>
+I have used Firebase as the Database
 I have also added the functionality to disable the keyboard if tap anywhere in the screen.<br/>
 <b>Video:</b><br/>
 [MiraclePillsVideo.mov.zip]
